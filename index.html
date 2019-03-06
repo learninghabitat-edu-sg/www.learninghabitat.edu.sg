@@ -20,7 +20,7 @@
         <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 
         <style amp-custom>
-           body{color:#505050;font-family:Roboto, sans-serif}.lhwww-btn{text-decoration:none;color:inherit;position:relative}.lhwww-btn:hover{top:-1px}.lhwww-btn--underlined{padding-bottom:.5em;border-bottom:2px solid #707070}.lhwww-btn--spaced{display:inline-block;margin:2em}.lhwww-content{margin:0 auto;margin-top:5em;margin-bottom:5em;padding:0 5%;max-width:980px}.lhwww-content__title{color:#369800;text-align:center;padding:.5em}.lhwww-content__text{max-width:500px;margin:2.5em auto;text-align:left}.lhwww-content__img-wrapper{max-height:200px;height:100vw;position:relative}.lhwww-content__img img{object-fit:contain}.lhwww-footer{border-top:1px solid #DDD;padding:1.5em 0;text-align:center}.lhwww-footer__link{color:inherit}.lhwww-footer__address{font-style:normal}.lhwww-header{height:2em;padding:.5em 1em;border-top:3px solid #E51B89;position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;z-index:1000;background-color:#fff;box-shadow:0 0 40px 0 rgba(0,0,0,0.1)}.lhwww-header__logo-wrapper{position:relative;background-color:grey}.lhwww-header__logo img{object-fit:contain}.lhwww-nav{padding-left:0;list-style-type:none}.lhwww-nav__item{font-weight:700}.lhwww-nav__item--active{background-color:#CCC}.lhwww-nav__link{display:inline-block;color:inherit;text-decoration:none;padding:.5em 1.5em;text-transform:lowercase}.lhwww-nav__link::first-letter{text-transform:uppercase}#lhwww-nav-inline{font-size:.9em}#lhwww-nav-inline .lhwww-nav__item{font-weight:400;padding:0;position:relative}#lhwww-nav-inline .lhwww-nav__item:not(.lhwww-nav__item--active):hover{top:-1px}#lhwww-nav-inline .lhwww-nav__item--active{font-weight:700;background-color:transparent}.lhwww-sidebar-toggler{cursor:pointer}@media (min-width: 980px){.lhwww-sidebar-toggler{display:none}}#lhwww-sidebar{border-top:3px solid #E51B89}.lhwww-home-hero-wrapper{position:relative;max-height:200px;height:100vw}.lhwww-home-hero img{object-fit:contain}.lhwww-home-motto{color:#369800;font-weight:500}.lhwww-page--home .lhwww-content{text-align:center}
+           body{color:#505050;font-family:Roboto, sans-serif}a{color:#369800}.lhwww-btn{text-decoration:none;color:inherit;position:relative}.lhwww-btn:hover{top:-1px}.lhwww-btn--underlined{padding-bottom:.5em;border-bottom:2px solid #707070}.lhwww-btn--spaced{display:inline-block;margin:2em}.lhwww-content{margin:0 auto;margin-top:5em;margin-bottom:5em;padding:0 10%;max-width:500px}.lhwww-content--infinite-width{max-width:none}.lhwww-content__title{color:#369800;text-align:center;padding:.5em}.lhwww-content__text{margin:2.5em auto;text-align:left}.lhwww-content__img-wrapper{max-height:250px;height:100vw;position:relative}.lhwww-content__img img{object-fit:contain}.lhwww-element--centered{margin:0 auto}.lhwww-footer{border-top:1px solid #DDD;padding:1.5em 0;text-align:center}.lhwww-footer__link{color:inherit}.lhwww-footer__address{font-style:normal}.lhwww-header{height:2em;padding:.5em 1em;border-top:3px solid #E51B89;position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;z-index:1000;background-color:#fff;box-shadow:0 0 40px 0 rgba(0,0,0,0.1)}.lhwww-header__logo-wrapper{height:30px;width:30px;display:inline-block;position:relative;background-color:grey}.lhwww-header__logo img{object-fit:contain}.lhwww-nav{padding-left:0;list-style-type:none}.lhwww-nav__item{font-weight:700}.lhwww-nav__item--active{background-color:#CCC}.lhwww-nav__link{display:inline-block;color:inherit;text-decoration:none;padding:.5em 1.5em;text-transform:lowercase}.lhwww-nav__link::first-letter{text-transform:uppercase}#lhwww-nav-inline{display:inline-block;font-size:.9em}#lhwww-nav-inline .lhwww-nav__item{font-weight:400;padding:0;position:relative}#lhwww-nav-inline .lhwww-nav__item:not(.lhwww-nav__item--active):hover{top:-1px}#lhwww-nav-inline .lhwww-nav__item--active{font-weight:700;background-color:transparent}.lhwww-sidebar-toggler{cursor:pointer}@media (min-width: 980px){.lhwww-sidebar-toggler{display:none}}#lhwww-sidebar{border-top:3px solid #E51B89}.lhwww-home-hero-wrapper{position:relative;max-height:200px;height:100vw}.lhwww-home-hero img{object-fit:contain}.lhwww-home-motto{color:#369800;font-weight:500}.lhwww-page--home .lhwww-content{text-align:center}.lhwww-home-student-img-wrapper{height:200px;width:150px;position:relative;display:block}.lhwww-home-student-img img{object-fit:contain}
 
         </style>
     </head>
@@ -78,12 +78,12 @@
                     <section>
                         <h2>Our students</h2>
 
-                        <amp-list src="https://static.learninghabitat.edu.sg/json/student-carousel.json" items="." layout="fixed-height" height="200">
+                        <!-- <amp-list src="https://static.learninghabitat.edu.sg/json/student-carousel.json" items="." layout="fixed-height" height="200">
                             <template type="amp-mustache">
                                 <amp-carousel layout="fixed-height" height="200">
-                                    {{#items}}
+                                    {{#.}}
                                     <div class="lhwww-home-student-img-wrapper">
-                                        <amp-img class="lhwww-home-student-img" src="{{src.webp}}" layout="fill">
+                                        <amp-img class="lhwww-home-student-img" src="{{imgUrl}}" layout="fill">
                                                 <amp-img class="lhwww-home-student-img" src="{{src.jpg}}" layout="fill">
                                                     <noscript>
                                                         <img class="lhwww-home-student-img lhwww-home-student-img--fallback-nojs" src="{{src.jpg">
@@ -91,14 +91,75 @@
                                                 </amp-img>
                                         </amp-img>
                                     </div>
-                                    {{/items}}
+                                    {{/.}}
                                 </amp-carousel>
                             </template>
-                        </amp-list>
+                        </amp-list> -->
                     </section>
                 </main>
             </article>
         </main>
+        
+
+        <amp-carousel class="lhwww-home-student-carousel" layout="fixed-height" height="200">
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/1.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/2.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/3.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/4.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/5.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/6.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/7.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/8.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/9.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/10.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/11.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/12.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/13.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/14.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/15.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/16.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/17.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/18.jpg"></amp-img>
+            </div>
+            <div class="lhwww-home-student-img-wrapper">
+                <amp-img class="lhwww-home-student-img" layout="fill" src="https://static.learninghabitat.edu.sg/img/student-carousel/19.jpg"></amp-img>
+            </div>
+        </amp-carousel>
 
         <footer class="lhwww-footer">
     <address class="lhwww-footer__address">
