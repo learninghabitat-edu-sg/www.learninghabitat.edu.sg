@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/package",
+  "name": "@lhtc/website-www",
+  "version": "0.1.0",
+  "description": "Learning Habitat www website",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "export": "npm run build && next export"
+  },
+  "author": "Learning Habitat Pte. Ltd.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
+  },
+  "devDependencies": {
+    "styled-jsx": "^3.2.2"
+  }
+}
