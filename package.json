@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "description": "Learning Habitat www website",
   "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "build": "next build",
     "export": "npm run build && next export"
@@ -14,6 +17,9 @@
   },
   "author": "Learning Habitat Pte. Ltd.",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/learninghabitat-edu-sg/www.learninghabitat.edu.sg/issues"
+  },
   "dependencies": {
     "next": "^9.0.6",
     "react": "^16.10.0",
