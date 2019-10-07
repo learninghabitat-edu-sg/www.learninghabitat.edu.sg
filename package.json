@@ -8,6 +8,10 @@
     "build": "next build",
     "export": "npm run build && next export"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/learninghabitat-edu-sg/www.learninghabitat.edu.sg.git"
+  },
   "author": "Learning Habitat Pte. Ltd.",
   "license": "Apache-2.0",
   "dependencies": {
