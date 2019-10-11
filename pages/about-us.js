@@ -16,16 +16,16 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-export const config = { amp: true }
+export const config = { amp: true };
 
 export default () => {
-    return (
-        <>
-            <Header />
-            <Footer />
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
+};

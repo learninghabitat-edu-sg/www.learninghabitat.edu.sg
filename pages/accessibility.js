@@ -16,27 +16,38 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-export const config = { amp: true }
+export const config = { amp: true };
 
 export default () => {
-    return (
-        <>
-            <Header />
-            <article>
-                <header>
-                    <h1>Accessibility</h1>
-                    <small>Website</small>
-                </header>
-                <main>
-                    <p>We strive to ensure that our website is accessible to all people. Hence, this website has been made to comply with WCAG 2.1 AAA (and inheritly WCAG 2.1 AA) on a best-effort basis.</p>
+  return (
+    <>
+      <Header />
+      <article>
+        <header>
+          <h1>Accessibility</h1>
+          <small>Website</small>
+        </header>
+        <main>
+          <p>
+            We strive to ensure that our website is accessible to all people.
+            Hence, this website has been made to comply with WCAG 2.1 AAA (and
+            inheritly WCAG 2.1 AA) on a best-effort basis.
+          </p>
 
-                    <p>If there's any potential accessibility issues with the wesbsite, please don't hesitate to <a href="https://go.lhtc.sg/WebsiteWWWNewIssueA11y">create a new issue</a> on our Github repository.</p>
-                </main>
-            </article>
-            <Footer />
-        </>
-    )
-}
+          <p>
+            If there's any potential accessibility issues with the wesbsite,
+            please don't hesitate to{" "}
+            <a href="https://go.lhtc.sg/WebsiteWWWNewIssueA11y">
+              create a new issue
+            </a>{" "}
+            on our Github repository.
+          </p>
+        </main>
+      </article>
+      <Footer />
+    </>
+  );
+};
