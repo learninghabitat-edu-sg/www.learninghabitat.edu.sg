@@ -20,6 +20,11 @@
   "bugs": {
     "url": "https://github.com/learninghabitat-edu-sg/www.learninghabitat.edu.sg/issues"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "dependencies": {
     "next": "^9.1.1",
     "react": "^16.10.2",
