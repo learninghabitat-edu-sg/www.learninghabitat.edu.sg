@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@learninghabitat.edu.sg
+Encryption: https://www.learninghabitat.edu.sg/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://www.learninghabitat.edu.sg/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE5HMvtoAu43tO/mO8WZ2G153gdacFAl2gTjEACgkQWZ2G153g
+dadXKg/+PRcPz9a6s+0KEzijgMW/3gXmHD+jI7a4LyaWm5W6LFVbupAWLrfpEA1F
+tj3p9owdn0qs27ep4Cnb8cJ6JvOUFeilabyRxTYFT50H6SO2jVPoEvf/djNXIMqW
+p5wXTAyIsOke+WDLRpI+vYk/LVYJ1WzmdIh7cN7fKTZYZbNLVsrUQwkbsDEbrGue
+iaVn1Prf2YVg6BViR1EQnkjpbNYaflXldfqK7haa5m5A3on7FyCqGSGGljQ4TSDF
+Qj8u1ctNUOr81x3olY3QK0lc/BxPMmlUDFhGPND6mGl+BPXiGwSgT/qfOOMEpDo+
+zzvyRhNeTUU8n7Dg+c+JwkgiVWSDt3oS1+fvmxrlFukes/quQUCOoCB7Y+/NZFRi
+TAihUhROIbHtbNicM9ruHecY19+tQYDYIw4vEdsia6UI78wT59L7iRP2kScDpbV+
+u27FUf/Bg1AlwJOYTbWuyT6AlXt4EbRMGmdDnFmDJ0TTbGHGm/MDi3nr4tyc3fxU
++sQE++YWBY80ADqYq15rNyZ+kKg5C1EZgTz1RDS0xSX3GVRZ0jvKRBN4nmVEmQLW
+xYs1NixFXOsm+Yg1BmY8VO/0NMwFOsX0hivOtznVA2Ligc6VPXsUdY1+4p1E+vRl
+DPCi1sI6B5uvKdkyWCOTN8P2ptj1Lphjn8JeQFue+b+GK5mgI+8=
+=f7G/
+-----END PGP SIGNATURE-----

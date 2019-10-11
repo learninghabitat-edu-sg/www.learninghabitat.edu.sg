@@ -193,10 +193,10 @@ export default () => {
 
             <style jsx>{`
                 .block-header-wrapper {
-                    position: fixed;
+                    /*position: fixed;
                     top: 0;
                     left: 0;
-                    right: 0;
+                    right: 0;*/
                 }
             `}</style>
         </>
