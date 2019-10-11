@@ -16,30 +16,30 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+import React from "react";
+
 export const config = { amp: true };
 
-export default () => {
-  return (
-    <>
-      <footer>
-        <ul>
-          <li>
-            <a href="/about-us">About us</a>
-          </li>
-          <li>
-            <a href="/about-us#contact">Contact us</a>
-          </li>
-          <li>
-            <a href="/accessibility">Accessibility</a>
-          </li>
-          <li>
-            <a href="/legal/privacy-policy">Privacy policy</a>
-          </li>
-          <li>
-            <a href="/sitemap">Sitemap</a>
-          </li>
-        </ul>
-      </footer>
-    </>
-  );
-};
+export default () => (
+  <>
+    <footer>
+      <ul>
+        <li>
+          <a href="/about-us">About us</a>
+        </li>
+        <li>
+          <a href="/about-us#contact">Contact us</a>
+        </li>
+        <li>
+          <a href="/accessibility">Accessibility</a>
+        </li>
+        <li>
+          <a href="/legal/privacy-policy">Privacy policy</a>
+        </li>
+        <li>
+          <a href="/sitemap">Sitemap</a>
+        </li>
+      </ul>
+    </footer>
+  </>
+);

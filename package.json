@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint **/*.js --fix --max-warnings=0 && pretty-quick --staged"
+      "pre-commit": "eslint **/*.jsx --fix --max-warnings=0 && pretty-quick --staged"
     }
   },
   "dependencies": {
@@ -31,6 +31,7 @@
     "react-dom": "^16.10.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
