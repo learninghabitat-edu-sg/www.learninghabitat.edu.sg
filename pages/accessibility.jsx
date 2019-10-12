@@ -16,9 +16,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import React from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 export const config = { amp: true };
 
@@ -39,10 +39,12 @@ export default () => (
 
         <p>
           If there&apos;s any potential accessibility issues with the website,
-          please don&apos;t hesitate to{" "}
+          please don&apos;t hesitate to
+          {' '}
           <a href="https://go.lhtc.sg/WebsiteWWWNewIssueA11y">
             create a new issue
-          </a>{" "}
+          </a>
+          {' '}
           on our Github repository.
         </p>
       </main>
