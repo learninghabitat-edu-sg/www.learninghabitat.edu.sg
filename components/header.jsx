@@ -144,7 +144,7 @@ const NavigationHeader = () => (
       <div className="short-logo__wrapper">
         <amp-img
           className="navigation-header__short-logo"
-          src="//static.learninghabitat.edu.sg/img/lh-logo/100x100.webp"
+          src="https://static.learninghabitat.edu.sg/img/lh-logo/100x100.webp"
           layout="responsive"
           width="1"
           height="1"
@@ -162,8 +162,8 @@ const NavigationHeader = () => (
         }
 
         .short-logo__wrapper {
-          width: 25px;
-          height: 25px;
+          width: 50px;
+          height: 50px;
         }
       `}
     </style>
@@ -213,6 +213,16 @@ const SEOHeader = () => (
   </Head>
 );
 
+const GlobalJSX = () => (
+  <>
+    <style jsx global>{`
+      body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+      }
+    `}</style>
+  </>
+)
+
 export default () => (
   <>
     <div className="block-header-wrapper">
@@ -221,6 +231,7 @@ export default () => (
     </div>
     <LegalHeader />
     <SEOHeader />
+    <GlobalJSX />
 
     <style jsx>
       {`
