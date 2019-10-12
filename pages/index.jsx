@@ -16,9 +16,10 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from 'react';
-import Head from 'next/head';
-import Header from '../components/header';
+import React from "react";
+import Head from "next/head";
+import Header from "../components/header";
+import Footer from '../components/footer';
 
 export const config = { amp: true };
 
@@ -34,28 +35,28 @@ const SEOHeader = () => (
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@id': 'https://www.learninghabitat.edu.sg/#JSONLD-School',
-            '@context': 'https://schema.org/',
-            '@type': 'School',
+            "@id": "https://www.learninghabitat.edu.sg/#JSONLD-School",
+            "@context": "https://schema.org/",
+            "@type": "School",
             address: {
-              '@type': 'PostalAddress',
-              addressCountry: 'SG',
-              postalCode: '530684',
-              streetAddress: '684 Hougang Ave 8 #04-967, Hougang Village',
+              "@type": "PostalAddress",
+              addressCountry: "SG",
+              postalCode: "530684",
+              streetAddress: "684 Hougang Ave 8 #04-967, Hougang Village"
             },
-            email: 'admin@learninghabitat.edu.sg',
-            legalName: 'Learning Habitat Pte. Ltd.',
-            name: 'Learning Habitat',
-            taxID: '200603601G',
-            telephone: ['+65 63437857', '+65 68585184'],
+            email: "admin@learninghabitat.edu.sg",
+            legalName: "Learning Habitat Pte. Ltd.",
+            name: "Learning Habitat",
+            taxID: "200603601G",
+            telephone: ["+65 63437857", "+65 68585184"],
             language: {
-              '@type': 'Language',
-              name: 'English',
-              alternateName: 'en',
+              "@type": "Language",
+              name: "English",
+              alternateName: "en"
             },
             description:
-              'Quality tuition backed by a pool of competent tutors with years of experience. Learning Habitat is a professional Primary and Secondary tuition centre in Singapore, registered with the Ministry of Education since 2006.',
-          }),
+              "Quality tuition backed by a pool of competent tutors with years of experience. Learning Habitat is a professional Primary and Secondary tuition centre in Singapore, registered with the Ministry of Education since 2006."
+          })
         }}
       />
 
@@ -63,28 +64,28 @@ const SEOHeader = () => (
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@id': 'https://www.learninghabitat.edu.sg/#JSONLD-WebSite',
-            '@context': 'https://schema.org/',
-            '@type': 'WebSite',
-            accessMode: ['textual', 'visual'],
+            "@id": "https://www.learninghabitat.edu.sg/#JSONLD-WebSite",
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            accessMode: ["textual", "visual"],
             accessModeSufficient: {
-              '@type': 'ItemList',
-              itemListOrder: 'https://schema.org/ItemListUnordered',
-              itemListElement: ['textual', 'visual'],
+              "@type": "ItemList",
+              itemListOrder: "https://schema.org/ItemListUnordered",
+              itemListElement: ["textual", "visual"]
             },
-            accessibilityAPI: 'ARIA',
+            accessibilityAPI: "ARIA",
             accessibilityControl: [
-              'fullKeyboardControl',
-              'fullMouseControl',
-              'fullTouchControl',
+              "fullKeyboardControl",
+              "fullMouseControl",
+              "fullTouchControl"
             ],
             accesssibilityFeature: [
-              'alternativeText',
-              'structuralNavigation',
-              'unlocked',
+              "alternativeText",
+              "structuralNavigation",
+              "unlocked"
             ],
-            accessibilityHazard: 'none',
-          }),
+            accessibilityHazard: "none"
+          })
         }}
       />
     </Head>
@@ -95,5 +96,6 @@ export default () => (
   <>
     <SEOHeader />
     <Header />
+    <Footer />
   </>
 );
