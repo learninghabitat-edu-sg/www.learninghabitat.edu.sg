@@ -16,9 +16,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from 'react';
-import Header from '../components/header';
-import Footer from '../components/footer';
+import React from "react";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export const config = { amp: true };
 

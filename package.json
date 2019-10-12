@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint **/*.jsx --fix --max-warnings=0 && pretty-quick"
+      "pre-commit": "eslint **/*.jsx --fix --max-warnings=0 && prettier **/*.jsx --write"
     }
   },
   "dependencies": {

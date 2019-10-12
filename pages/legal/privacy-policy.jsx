@@ -16,9 +16,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from 'react';
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import React from "react";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 export const config = { amp: true };
 
@@ -186,11 +186,11 @@ export default () => (
           </p>
           <ul>
             <li>
-              Visit
-              {' '}
-              <a href="https://go.lhtc.sg/EditAccountInfo">https://go.lhtc.sg/EditAccountInfo</a>
-, and enter your username
-              and password.
+              Visit{" "}
+              <a href="https://go.lhtc.sg/EditAccountInfo">
+                https://go.lhtc.sg/EditAccountInfo
+              </a>
+              , and enter your username and password.
             </li>
             <li>
               You will be redirected to a page to edit your account information.
@@ -204,9 +204,11 @@ export default () => (
           </p>
           <ul>
             <li>
-Visit
-              <a href="https://go.lhtc.sg/DataExportRequest">https://go.lhtc.sg/DataExportRequest</a>
-.
+              Visit
+              <a href="https://go.lhtc.sg/DataExportRequest">
+                https://go.lhtc.sg/DataExportRequest
+              </a>
+              .
             </li>
             <li>Enter your email address.</li>
             <li>Click “Accept Declaration and Request Export”.</li>
@@ -254,9 +256,11 @@ Visit
           </p>
           <ul>
             <li>
-Visit
-              <a href="https://go.lhtc.sg/DataErasureRequest">https://go.lhtc.sg/DataErasureRequest</a>
-.
+              Visit
+              <a href="https://go.lhtc.sg/DataErasureRequest">
+                https://go.lhtc.sg/DataErasureRequest
+              </a>
+              .
             </li>
             <li>Enter your email address.</li>
             <li>
