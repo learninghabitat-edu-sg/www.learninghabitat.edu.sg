@@ -16,9 +16,9 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from "react";
-import Header from "../../components/header";
-import Footer from "../../components/footer";
+import React from 'react';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 
 export const config = { amp: true };
 
@@ -186,7 +186,8 @@ export default () => (
           </p>
           <ul>
             <li>
-              Visit{" "}
+              Visit
+              {' '}
               <a href="https://go.lhtc.sg/EditAccountInfo">
                 https://go.lhtc.sg/EditAccountInfo
               </a>

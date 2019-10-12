@@ -16,8 +16,8 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+import Head from 'next/head';
 
 export const config = { amp: true };
 
@@ -85,19 +85,21 @@ const LegalHeader = () => (
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             consents: {
-              "main-consent": {
+              'main-consent': {
                 promptIfUnknownForGeoGroup: true,
-                promptUI: "consent-ui"
-              }
-            }
-          })
+                promptUI: 'consent-ui',
+              },
+            },
+          }),
         }}
       />
 
       <div id="block-consent-ui">
         <p>
-          By clicking &quot;continue&quot;, you consent to our{" "}
-          <a href="/policies/privacy">privacy policy</a>.
+          By clicking &quot;continue&quot;, you consent to our
+          {' '}
+          <a href="/policies/privacy">privacy policy</a>
+.
         </p>
         <button type="button" on="tap:consent-element.accept">
           Continue
@@ -182,10 +184,10 @@ const SEOHeader = () => (
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
-          "@id": "https://www.learninghabitat.edu.sg/#JSONLD-School",
-          "@context": "https://schema.org/",
-          "@type": "School"
-        })
+          '@id': 'https://www.learninghabitat.edu.sg/#JSONLD-School',
+          '@context': 'https://schema.org/',
+          '@type': 'School',
+        }),
       }}
     />
 
@@ -193,10 +195,10 @@ const SEOHeader = () => (
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
-          "@id": "https://www.learninghabitat.edu.sg/#JSONLD-WebSite",
-          "@context": "https://schema.org/",
-          "@type": "WebSite"
-        })
+          '@id': 'https://www.learninghabitat.edu.sg/#JSONLD-WebSite',
+          '@context': 'https://schema.org/',
+          '@type': 'WebSite',
+        }),
       }}
     />
 
@@ -204,10 +206,10 @@ const SEOHeader = () => (
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
-          "@id": "https://www.learninghabitat.edu.sg/#JSONLD-WebPage",
-          "@context": "https://schema.org/",
-          "@type": "WebPage"
-        })
+          '@id': 'https://www.learninghabitat.edu.sg/#JSONLD-WebPage',
+          '@context': 'https://schema.org/',
+          '@type': 'WebPage',
+        }),
       }}
     />
   </Head>
@@ -215,13 +217,18 @@ const SEOHeader = () => (
 
 const GlobalJSX = () => (
   <>
-    <style jsx global>{`
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-      }
-    `}</style>
+    <style jsx global>
+      {`
+        body {
+          padding: 0 5%;
+          padding-top: 5rem;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+      `}
+    </style>
   </>
-)
+);
 
 export default () => (
   <>
@@ -236,10 +243,11 @@ export default () => (
     <style jsx>
       {`
         .block-header-wrapper {
-          /*position: fixed;
-                    top: 0;
-                    left: 0;
-                    right: 0;*/
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 5rem;
         }
       `}
     </style>
